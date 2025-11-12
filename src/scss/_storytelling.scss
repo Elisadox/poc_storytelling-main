@@ -1,0 +1,86 @@
+.storytelling {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.storytelling-scene-one {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+}
+.storytelling-vessel {
+  position: absolute;
+  width: 70%;
+  top: 20;
+  z-index: 1;
+}
+.storytelling-second-vessel {
+  position: absolute;
+  bottom: -170px;
+  width: 30%;
+  z-index: 1;
+}
+.storytelling-scene-three {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.storytelling-voiture {
+  position: relative;
+}
+.storytelling-scene-four {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+.storytelling-scene-five {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+.storytelling-scene-six {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+}
+
+.storytelling-transition {
+  background-color: black;
+  width: 100%;
+  height: 300px;
+}
+.storytelling-horizontal-img {
+  height: 150%;
+  width: auto;
+  x: "10%";
+}
+.storytelling-horizontal {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.storytelling-animation {
+  height: 100%;
+}
+.storytelling-horizontal-voiture {
+  position: absolute;
+  top: 190px;
+  right: -210;
+  width: 45%;
+}

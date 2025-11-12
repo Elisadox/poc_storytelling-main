@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.background-presentation {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-presentation img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-one {
+  position: absolute;
+  top: 300px;
+  left: 40px;
+  transition: transform 0.2s;
+  width: 30%;
+}
+
+.card-one:hover {
+  transform: scale(1.1);
+}
+.card-two {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  width: 30%;
+  transition: transform 0.2s;
+}
+.card-two:hover {
+  transform: scale(1.1);
+}
+
+.card-three {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+  width: 30%;
+  transition: transform 0.2s;
+}
+
+.card-three:hover {
+  transform: scale(1.1);
+}
+
+.bulle-wrapper img {
+  width: 100%;
+}
+
+.bulle-1 {
+  width: 11%;
+  position: absolute;
+  top: 500px;
+  left: 280px;
+}
+
+.bulle-2 {
+  width: 25%;
+  position: absolute;
+  top: 900px;
+  left: 700px;
+}
+
+.bulle-3 {
+  width: 25%;
+  position: absolute;
+  top: 1050px;
+  left: 180px;
+}
+
+.bulle-4 {
+  width: 20%;
+  position: absolute;
+  top: 620px;
+  left: 790px;
+}
+.bulle-5 {
+  width: 20%;
+  position: absolute;
+  top: 580px;
+  left: 250px;
+}
