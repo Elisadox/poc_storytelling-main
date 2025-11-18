@@ -1,0 +1,37 @@
+.card img {
+  width: 100%;
+}
+
+.card-one {
+  position: absolute;
+  top: 300px;
+  left: 40px;
+  transition: transform 0.2s;
+  width: 30%;
+}
+
+.card-one:hover {
+  transform: scale(1.1);
+}
+.card-two {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  width: 30%;
+  transition: transform 0.2s;
+}
+.card-two:hover {
+  transform: scale(1.1);
+}
+
+.card-three {
+  position: absolute;
+  top: 25%;
+  left: 65%;
+  width: 30%;
+  transition: transform 0.2s;
+}
+
+.card-three:hover {
+  transform: scale(1.1);
+}
