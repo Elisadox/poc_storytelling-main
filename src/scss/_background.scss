@@ -4,6 +4,21 @@
   position: relative;
   overflow: hidden;
 }
+.background-presentation::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 44vh;
+  bottom: 85vh;
+  z-index: 3;
+  background: linear-gradient(
+    0deg,
+    rgba(17, 17, 17, 0.05) 0%,
+    #111 21.15%,
+    #000 84.13%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+}
 
 .background-presentation img {
   max-width: 100%;

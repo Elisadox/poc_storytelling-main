@@ -22,12 +22,48 @@
   position: absolute;
   bottom: -170px;
   width: 30%;
-  z-index: 1;
+  z-index: 2;
 }
+
+.storytelling-scene-two {
+  position: relative;
+}
+
+.storytelling-scene-two::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 40vh;
+  bottom: -30vh;
+  z-index: 1;
+  background: linear-gradient(
+    0deg,
+    rgba(4, 14, 22, 0.52) 0%,
+    #020609 20.67%,
+    #05111a 77.4%,
+    rgba(4, 12, 18, 0.05) 100%
+  );
+}
+
 .storytelling-scene-three {
   width: 100%;
   height: 100%;
   position: relative;
+}
+.storytelling-scene-three::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 40vh;
+  bottom: -9vh;
+  z-index: 1;
+  background: linear-gradient(
+    0deg,
+    rgba(4, 14, 22, 0.52) 0%,
+    #020609 21.15%,
+    #05111a 84.13%,
+    rgba(4, 12, 18, 0.05) 100%
+  );
 }
 
 .storytelling-voiture {
@@ -37,16 +73,48 @@
   position: absolute;
   width: 100%;
   height: auto;
+  z-index: 1;
+  bottom: 10%;
 }
+// .storytelling-scene-four::after {
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   height: 40vh;
+//   bottom: -25vh;
+//   z-index: 3;
+//   background: linear-gradient(
+//     0deg,
+//     rgba(4, 14, 22, 0.52) 0%,
+//     #020609 21.15%,
+//     #1f2c3e 84.13%,
+//     rgba(31, 45, 63, 0.05) 100%
+//   );
+// }
 .storytelling-scene-five {
   width: 100%;
   height: 100%;
   position: relative;
 }
+
+.storytelling-scene-five::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 40vh;
+  bottom: -25vh;
+  z-index: 1;
+  background: linear-gradient(
+    0deg,
+    rgba(4, 14, 22, 0.52) 0%,
+    #020609 21.15%,
+    #1f2c3e 84.13%,
+    rgba(31, 45, 63, 0.05) 100%
+  );
+}
 .storytelling-scene-six {
   width: 100%;
   height: 100%;
-
   position: relative;
 }
 
