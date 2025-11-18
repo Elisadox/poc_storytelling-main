@@ -50,9 +50,9 @@ gsap.to("#bulle-left-1", {
   opacity: 1,
   x: "25%",
   scrollTrigger: {
-    trigger: ".voiture-background",
-    start: "top top",
-    start: "-=600",
+    trigger: ".bulle-1",
+    start: "top 75%",
+    end: "center center",
     scrub: 1,
   },
 });
@@ -61,9 +61,9 @@ gsap.to("#bulle-right-2", {
   opacity: 1,
   x: "50%",
   scrollTrigger: {
-    trigger: ".voiture-background",
-    start: "top center bottom",
-    start: "-=800",
+    trigger: ".bulle-2",
+    start: "top 85%",
+    end: "center center",
     scrub: 1,
   },
 });
@@ -72,13 +72,32 @@ gsap.to("#bulle-left-3", {
   opacity: 1,
   x: "25%",
   scrollTrigger: {
-    trigger: ".voiture-background",
-    start: "top top",
-    start: "-=600",
+    trigger: ".bulle-3",
+    start: "top 85%",
+    end: "center center",
     scrub: 1,
   },
 });
-
+gsap.to("#bulle-right-4", {
+  opacity: 1,
+  x: "30%",
+  scrollTrigger: {
+    trigger: ".bulle-4",
+    start: "top 95%",
+    end: "center center",
+    scrub: 1,
+  },
+});
+gsap.to("#bulle-left-5", {
+  opacity: 1,
+  x: "20%",
+  scrollTrigger: {
+    trigger: ".bulle-5",
+    start: "top 90%",
+    end: "center center",
+    scrub: 1,
+  },
+});
 gsap.to(".storytelling-second-vessel", {
   opacity: 0,
   scrollTrigger: {
