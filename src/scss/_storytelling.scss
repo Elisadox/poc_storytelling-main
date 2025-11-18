@@ -6,12 +6,7 @@
   height: 100vh;
   width: 100%;
 }
-.storytelling-scene-one {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: flex;
-}
+
 .storytelling-vessel {
   position: absolute;
   width: 70%;
@@ -24,7 +19,9 @@
   width: 30%;
   z-index: 2;
 }
-
+.storytelling-voiture {
+  position: relative;
+}
 .storytelling-scene-two {
   position: relative;
 }
@@ -66,9 +63,6 @@
   );
 }
 
-.storytelling-voiture {
-  position: relative;
-}
 .storytelling-scene-four {
   position: absolute;
   width: 100%;
@@ -76,21 +70,7 @@
   z-index: 1;
   bottom: 10%;
 }
-// .storytelling-scene-four::after {
-//   content: "";
-//   position: absolute;
-//   width: 100%;
-//   height: 40vh;
-//   bottom: -25vh;
-//   z-index: 3;
-//   background: linear-gradient(
-//     0deg,
-//     rgba(4, 14, 22, 0.52) 0%,
-//     #020609 21.15%,
-//     #1f2c3e 84.13%,
-//     rgba(31, 45, 63, 0.05) 100%
-//   );
-// }
+
 .storytelling-scene-five {
   width: 100%;
   height: 100%;

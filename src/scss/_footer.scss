@@ -4,6 +4,17 @@
   padding-left: 80px;
   padding-bottom: 70px;
 }
+.footer-info-all {
+  display: flex;
+  margin-left: 370px;
+  gap: 30px;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+}
 .footer-texte {
   color: #fffb89;
   font-family: Futura;
@@ -24,17 +35,7 @@
   letter-spacing: 0.32px;
   text-transform: capitalize;
 }
-.footer-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 11px;
-}
+
 .footer-icon {
   width: 50%;
-}
-.footer-info-all {
-  display: flex;
-  margin-left: 370px;
-  gap: 30px;
 }

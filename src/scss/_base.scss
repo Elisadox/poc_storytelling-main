@@ -14,6 +14,21 @@ video {
   width: 100%;
   height: auto;
 }
+h1 {
+  position: relative;
+  color: #000;
+  text-align: center;
+  font-family: balboa-plus-fill, sans-serif;
+  font-size: 164px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.28px;
+  display: flex;
+  width: 717px;
+  flex-direction: column;
+  align-items: center;
+}
 button {
   color: #000;
   text-align: center;
