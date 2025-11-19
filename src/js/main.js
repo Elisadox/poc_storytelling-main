@@ -98,6 +98,16 @@ gsap.to("#bulle-left-5", {
     scrub: 1,
   },
 });
+gsap.to("#bulle-scene-4", {
+  opacity: 1,
+  y: "10%",
+  scrollTrigger: {
+    trigger: ".bulle-scene-four",
+    start: "top 90%",
+    end: "center center",
+    scrub: 1,
+  },
+});
 gsap.to(".storytelling-second-vessel", {
   opacity: 0,
   scrollTrigger: {

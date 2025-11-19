@@ -8,6 +8,7 @@
   left: 40px;
   transition: transform 0.2s;
   width: 30%;
+  z-index: 4;
 }
 
 .card-one:hover {
@@ -30,6 +31,7 @@
   left: 65%;
   width: 30%;
   transition: transform 0.2s;
+  z-index: 4;
 }
 
 .card-three:hover {
